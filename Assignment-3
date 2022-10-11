@@ -1,0 +1,45 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Candidate c1=new Candidate();
+            
+
+        }
+    }
+    class Candidate
+    {
+       public string name;
+       public string location;
+       public bool gpa;
+        
+       public string  setname(){
+            return name;
+        }
+       public string setlocation()
+       {
+           return location;
+       }
+       public bool setgpa()
+       {
+           return gpa;
+       }
+       List<Student> marks = new List<Student>();
+
+        
+    }
+    class Student
+    {
+        int assignment1;
+        int assignment2;
+        int sermarks1()
+        {
+            return assignment1;
+        }
+        int setmarks2()
+        {
+            return assignment2;
+        }
+
+    }
