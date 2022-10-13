@@ -1,0 +1,16 @@
+ Dictionary<string, string> dic = new Dictionary<string, string>();
+  for (int i = 0; i < getselected.Count; i++)
+            {
+
+                dic.Add(getselected[i].name, getselected[i].location);
+            }
+            foreach (KeyValuePair<string, string> kvp in dic)
+            {
+                if (kvp.Value=="Lahore")
+               
+                {
+                    Console.WriteLine(kvp.Key);
+                    
+                }
+
+            }
